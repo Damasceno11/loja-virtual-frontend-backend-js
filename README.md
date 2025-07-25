@@ -4,34 +4,36 @@ Este projeto é uma loja virtual completa desenvolvida com JavaScript puro, HTML
 
 ## ✅ Funcionalidades
 
-- Listagem de produtos (30 itens);
-- Exibição dos produtos em formato de cards;
-- Menu com categorias e busca dinâmica;
-- Carrinho de compras com:
-  - Adição e remoção de produtos;
-  - Validação de estoque;
-  - Finalização da compra;
-- Alerta de produto esgotado;
-- Filtro por categoria;
-- Página de confirmação da compra;
-- Histórico de compras (salvo no `localStorage`);
-- Backend com controle de estoque simulado via frontend.
+* Listagem de produtos (30 itens);
+* Exibição dos produtos em formato de cards;
+* Menu com categorias e busca dinâmica;
+* Carrinho de compras com:
+
+  * Adição e remoção de produtos;
+  * Validação de estoque;
+  * Finalização da compra;
+* Alerta de produto esgotado;
+* Filtro por categoria;
+* Página de confirmação da compra;
+* Histórico de compras (salvo no `localStorage`);
+* Backend com controle de estoque simulado via frontend.
 
 ## 🚀 Tecnologias Utilizadas
 
-- HTML5 + CSS3 (com Bootstrap 5);
-- JavaScript Puro (Vanilla JS);
-- Node.js com Express no Backend;
-- Fetch API;
-- `localStorage` para histórico de compras;
-- Organização em Frontend e Backend separados.
+* HTML5 + CSS3 (com Bootstrap 5);
+* JavaScript Puro (Vanilla JS);
+* Node.js com Express no Backend;
+* Fetch API;
+* `localStorage` para histórico de compras;
+* Organização em Frontend e Backend separados.
 
 ## 🛠️ Como Executar
 
 1. **Clone o repositório**:
+
    ```bash
    git clone https://github.com/seu-usuario/seu-repositorio.git
-````
+   ```
 
 2. **Instale as dependências do backend**:
 
@@ -86,12 +88,10 @@ Este projeto é uma loja virtual completa desenvolvida com JavaScript puro, HTML
 **Pedro Paulo Damasceno Muniz**
 Estudante de Análise e Desenvolvimento de Sistemas – Uniasselvi – Blumenau
 Participante do treinamento intensivo +Devs2Blu – Blumenau
-GitHub: [Damasceno11](https://github.com/Damasceno11)
+🔗 GitHub: [Damasceno11](https://github.com/Damasceno11)
 
 ---
 
 📌 Projeto com foco didático, boas práticas e separação de responsabilidades (frontend/backend) para facilitar aprendizado, manutenção e apresentação.
 
-```
-
-
+---
