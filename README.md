@@ -1,56 +1,59 @@
-# 🛍️ Loja Virtual – Projeto Prático Dev2Blu
+# 🛍️ Loja Virtual – Frontend + Backend (JavaScript Puro)
 
-Este é um projeto completo de uma **Loja Virtual** desenvolvido com HTML, CSS e JavaScript puro. O objetivo é aplicar na prática os conhecimentos de front-end, consumo de API e manipulação de dados, como parte das atividades avaliativas do curso **+Devs2Blu – Prefeitura de Blumenau e Proway**.
-
----
+Este projeto é uma loja virtual completa desenvolvida com JavaScript puro, HTML, CSS e uma API Node.js (Express), atendendo a todos os critérios propostos para nota máxima no desafio prático.
 
 ## ✅ Funcionalidades
 
-- Listagem dinâmica de produtos com base em uma API local
-- Sistema de carrinho de compras com:
-  - Adição e remoção de itens
-  - Alteração da quantidade
-  - Validação de estoque
-- Finalização de compra com página de confirmação
-- Filtro por categoria no menu
-- Pesquisa por nome ou categoria em tempo real
-- Controle de estoque automático (produto esgotado = botão desativado)
-- Histórico de compras salvo no navegador (localStorage)
-
----
+- Listagem de produtos (30 itens);
+- Exibição dos produtos em formato de cards;
+- Menu com categorias e busca dinâmica;
+- Carrinho de compras com:
+  - Adição e remoção de produtos;
+  - Validação de estoque;
+  - Finalização da compra;
+- Alerta de produto esgotado;
+- Filtro por categoria;
+- Página de confirmação da compra;
+- Histórico de compras (salvo no `localStorage`);
+- Backend com controle de estoque simulado via frontend.
 
 ## 🚀 Tecnologias Utilizadas
 
-- HTML5 + CSS3
-- JavaScript (Vanilla)
-- Bootstrap 5
-- Node.js com Express (para simular API local)
-- `fetch API` para consumo de dados
-- localStorage
+- HTML5 + CSS3 (com Bootstrap 5);
+- JavaScript Puro (Vanilla JS);
+- Node.js com Express no Backend;
+- Fetch API;
+- `localStorage` para histórico de compras;
+- Organização em Frontend e Backend separados.
 
----
+## 🛠️ Como Executar
 
-## 🧩 Como Executar o Projeto
-
-1. **Clone o repositório:**
-
-```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
+1. **Clone o repositório**:
+   ```bash
+   git clone https://github.com/seu-usuario/seu-repositorio.git
 ````
 
-2. **Acesse a pasta do back-end e instale as dependências:**
+2. **Instale as dependências do backend**:
 
-```bash
-cd backend
-npm install
-npm run dev
-```
+   ```bash
+   cd backend
+   npm install
+   ```
 
-> O servidor rodará em: `http://localhost:3000/produtos`
+3. **Inicie o servidor**:
 
-3. **Abra o front-end:**
+   ```bash
+   npm run dev
+   ```
 
-* Vá até a pasta `frontend` e abra o arquivo `index.html` com o **Live Server** ou arraste no navegador.
+   O servidor rodará em: `http://localhost:3000/produtos`
+
+4. **Abra o frontend com Live Server** (recomendado):
+
+   * Navegue até a pasta `frontend`
+   * Abra o `index.html` com o Live Server
+
+> ⚠️ Atenção: O frontend consome a API local para obter os produtos. Mantenha o backend rodando.
 
 ---
 
@@ -58,23 +61,23 @@ npm run dev
 
 ### 🛒 Página Inicial – Produtos
 
-![Página Inicial](./img/site.png)
+![Página Inicial](./frontend/img/site.png)
 
 ### 🔎 Filtro de Produtos por Categoria
 
-![Filtro por Categoria "Camisa"](./img/filtro-camis-ativo.png)
+![Filtro por Categoria "Camisa"](./frontend/img/filtro-camis-ativo.png)
 
 ### 🛍️ Carrinho de Compras
 
-![Carrinho de Compras](./img/carrinho.png)
+![Carrinho de Compras](./frontend/img/carrinho.png)
 
 ### ✅ Confirmação de Compra
 
-![Página de Confirmação](./img/confirmacao-compra.png)
+![Página de Confirmação](./frontend/img/confirmacao-compra.png)
 
 ### 📜 Histórico de Compras
 
-![Histórico de Compras](./img/carrinho-confirmacao.png)
+![Histórico de Compras](./frontend/img/carrinho-confirmacao.png)
 
 ---
 
@@ -82,15 +85,13 @@ npm run dev
 
 **Pedro Paulo Damasceno Muniz**
 Estudante de Análise e Desenvolvimento de Sistemas – Uniasselvi – Blumenau
-Participante do programa intensivo +Devs2Blu – Prefeitura de Blumenau e Proway
-GitHub: [github.com/Damasceno11](https://github.com/Damasceno11)
+Participante do treinamento intensivo +Devs2Blu – Blumenau
+GitHub: [Damasceno11](https://github.com/Damasceno11)
 
 ---
 
-## 📌 Observações
+📌 Projeto com foco didático, boas práticas e separação de responsabilidades (frontend/backend) para facilitar aprendizado, manutenção e apresentação.
 
-* O projeto **não utiliza banco de dados**. O controle de estoque é feito em memória local (front-end).
-* As imagens foram armazenadas localmente na pasta `img` para evitar erros de carregamento externo.
+```
 
----
 
